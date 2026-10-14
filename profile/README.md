@@ -25,9 +25,7 @@ We welcome thoughtful bug reports, documentation improvements, feature proposals
 
 ## Links
 
-- Website: `https://YOUR_OFFICIAL_DOMAIN`
-- Documentation: `https://YOUR_DOCS_URL`
-- Community: `https://YOUR_COMMUNITY_URL`
-- Security reports: see [`SECURITY.md`](../SECURITY.md)
+- Website: `https://nuvyrahub.org`
+- LinkedIn: `https://linkedin.com/company/nuvyrahub`
 
 > Replace the example URLs above with verified official NuvyraHub destinations before publishing.
