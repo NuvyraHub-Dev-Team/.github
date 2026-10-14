@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible problem in a NuvyraHub project.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not include secrets, seed phrases, private keys, personal data, or production credentials."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Frontend
+        - API or backend
+        - AI model hosting or inference
+        - Wallet or Web3 integration
+        - Smart contracts or payments
+        - Documentation
+        - Other
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: Redact tokens, credentials, personal data, and sensitive information.
+    validations:
+      required: false

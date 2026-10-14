@@ -1,0 +1,25 @@
+# Starter CI template. Copy this file to a code repository at:
+# .github/workflows/ci.yml
+# Customize setup and test commands for that repository's stack.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Placeholder reminder
+        run: |
+          echo "Customize this workflow with your language runtime, lint, tests, and build."
+          echo "Do not add secrets to logs or expose production credentials."

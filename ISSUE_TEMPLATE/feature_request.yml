@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest an improvement for a NuvyraHub project.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user need or pain point would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: User, security, and compatibility impact
+      description: Mention relevant effects on creators, consumers, model operators, licensing, wallets, or payments.
+    validations:
+      required: false
